@@ -1,0 +1,25 @@
+﻿# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+*.pyc
+backend/instance/
+backend/mediledger.db
+
+# Node
+frontend/node_modules/
+blockchain/node_modules/
+
+# Env secrets
+.env
+backend/.env
+blockchain/.env
+
+# Storage/uploads
+backend/storage/
+
+# Blockchain build artifacts (optional)
+blockchain/cache/
+blockchain/artifacts/
+
+backend/encryption.key
